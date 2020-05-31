@@ -1,0 +1,414 @@
+/*
+* @Author: ÕÔÐ¡Áú
+* @Date:   2020-05-22 18:18:40
+* @Last Modified by:   赵小龙
+* @Last Modified time: 2020-05-31 15:48:15
+*/
+
+/* header 开始 */
+/* logo和导航栏 */
+.header{
+	height:100px;
+	background-color: #F3F5F7;
+}
+.logo{
+	width:170px;
+	height:39px;
+	margin-top: 33px;
+}
+.nav{
+	width:250px;
+	height:30px;
+	margin-top:42px;
+	margin-left:70px;
+	margin-right:180px;
+}
+.nav>li{
+	float:left;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom:10px;
+}
+.middle{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.nav a{
+    font-size:18px;
+    color:rgba(5,5,5,1);
+}
+.nav>li:hover{
+	border-bottom:2px solid rgb(0,164,255);
+}
+/* 搜索框 */
+.form{
+	margin-top:31px;
+}
+.form input{
+    float: left;
+}
+.search{
+	width:360px;
+	height:40px;
+	padding-left:20px; 
+	border:1px solid #00A4FF;
+	font-size: 18px;
+}
+.submit{
+	width:50px;
+	height:42px;
+	border:1px solid #00A4FF;
+	background: #00A4FF url(img/fa-search.png) no-repeat center center;
+}
+.header p{
+	margin-top:44px;
+	margin-left: 31px;
+	width:60px;
+    height:12px;
+    font-size:14px;   
+}
+.header p a{
+	color:rgba(102,102,102,1);
+}
+.searchZone form>ul{
+	display: none;
+}
+.searchZone form .search:focus+ul{
+	display:inline;
+}
+.searchZone{
+	position: relative;
+}
+.searchZone ul{
+	width:270px;
+	height:167px;
+    background-color: #fff;
+	position: absolute;
+	top:75px;
+	right:205px;
+	z-index: 100;
+    line-height: 20px;
+    font-size: 8px;
+    box-shadow:0px 4px 10px 0px rgba(60,159,187,1);
+}
+.searchZone ul a{
+	color: #8D8D8D;
+}
+.searchZone ul li{
+	margin-left: 16px;
+}
+.history{
+	margin-top:15px;
+}
+#history{
+	font-size: 14px;
+    color:#42B2FF; 	
+}
+#history+a{
+	margin-left: 150px;
+}
+#hot{
+	padding-top: 26px;
+	font-size: 14px;
+}
+#hot a{
+    color:#42B2FF; 	
+}
+/* header 结束 */
+/* banner 开始 */
+
+#banner{
+	background-color: #1C036C;
+	width:100%;
+	height:420px;
+}
+.banner{
+	height:420px;
+    background: url(img/banner.png) no-repeat 25px;
+}
+.Nav{
+	width:190px;
+    height:420px;
+    background:rgba(0,0,0,0.3);
+    font-size:14px;
+    color:#FFFFFF;
+    line-height:44px;
+}
+.Nav>li>ul{
+    width:190px;
+    height:35px;
+    margin-top:10px;
+}
+.itme{
+    margin-left:20px;
+}
+.more{
+	margin-right:20px;
+}
+.Nav li:hover{
+    color:#00B4FF;
+    cursor:pointer
+}
+#banner{
+	position:relative;
+}
+#banner>p{
+	float: left;
+	position: absolute;
+	top: 68%;
+	left:47%;
+	font-size:10px;
+	width:66px;
+	padding:5px;
+	margin:0px;
+	background-color: #FA6602;
+	text-align: center;
+	border-radius: 5px;
+}
+#banner>p>a{
+	color:#fff;
+}
+/* banner 结束 */
+/* Bottom NAV */
+.bannerBN{
+	width:1200px;
+	height:60px;
+	background-color:#FFF;
+	margin-top: 8px;
+	border-radius: 1px;
+	box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+}
+
+.BNav{
+	margin-top:21px;
+    margin-left:30px;
+}
+.BNav li{
+    float:left;
+    padding-left:30px;
+    padding-right:30px;
+    border-right:1px solid #BFBFBF;
+}
+.BNav li a{
+	color:#2B2B2B;
+}
+.BNav .first{
+	font-weight: bold;
+}
+.BNav .first a{
+	color:#00A4FF;
+}
+.BNav .last{
+	border-style:none;
+}
+.bannerBN p {
+	margin-top: 21px;
+    margin-right:60px;}
+.bannerBN p a{
+    color:#00A4FF;
+}
+/* containerZone1 */
+/* 内容区的标题 */
+.containTOP{
+	height:600px;
+	margin-top:35px;
+}
+.topic{
+	height:40px;
+}
+.topicL{
+    font-size:20px;
+    color:rgba(73,73,73,1);
+}
+.topicR{
+	margin-top:7px;
+	margin-right:30px;
+    font-size:12px;
+}
+.topicR a{
+    color:rgba(165,165,165,1);
+}
+/* 课程展示 */
+.courseZone1{
+	height:560px;
+}
+.course{
+	float:left;
+	width:228px;
+	height:270px;
+	margin-bottom:15px;
+	margin-right:15px;
+	background-color: #FFFFFF;
+}
+.courseZone1>.first{
+
+	box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+}
+.courseR{
+	margin-right:0px;
+}
+.name{
+    width:185px;
+    height:35px;  
+    margin-top:20px; 
+    margin-left: 25px;
+    font-size:14px;
+    line-height:20px;
+    font-weight:400;
+}
+.course a{
+	color:rgba(5,5,5,1);
+}
+.level{
+	margin-top:20px;
+	margin-left:25px;
+	width:119px;
+    height:13px;
+    font-size:12px;
+}
+.level a{
+	color:rgba(255,124,45,1);
+}
+.level span a{
+	color:#999;
+}
+/* containerZone2的导航栏  */
+.containBOT{
+	height:346px;
+    margin-top:37px;
+}
+.topicM{
+	margin-left:290px;
+}
+.topicM li{
+	float: left;
+    width:100px;
+    margin-top:4px;
+}
+.topicM a{
+	color:#868686;
+}
+
+.topicM a:hover{
+	color:#00A4FF;
+}
+/* teacher */
+.teacher{
+	margin-top:31px;
+	height:375px;
+}
+.teacher .title{
+	font-size:20px;
+	height:55px;
+    color:rgba(73,73,73,1);
+}
+.teacher ul li{
+	float: left;
+}
+/* JS图 */
+.teacherZone{
+	position:relative;
+}
+.yellow{
+	position:absolute;
+	top: 99px;
+	left:25px;
+	font-size: 25px;
+	font-weight: bolder;
+	color: #F9E103;
+}
+.white{
+	position:absolute;
+	top: 140px;
+	left:25px;
+	font-size: 25px;
+	font-weight:600;
+	color: #FFF;
+}
+.white+li{
+	position: absolute;
+	top: 180px;
+	left:28px;
+	width:87px;
+    height:25px;
+    border:1px solid #F9E103;
+    text-align: center;
+    line-height:25px;
+    color: #F9E103;
+
+}
+/* 三位老师 */
+.teacherR{
+	margin-left: 15px;
+    position: relative;
+}
+.teacher .word{
+	width:228px;
+	height:122px;
+    position: absolute;
+    bottom:0px;
+    background:rgba(0,0,0,0.5);
+}
+.teacherName{
+	color:#FFF;
+	font-size:18px;
+	margin-top:21px;
+	margin-left:21px;
+}
+.teacherName span{
+    font-size:14px;
+}
+.synopsis{
+	width:175px;
+	height:54px;
+	margin-top:12px;
+	margin-left:21px;
+	font-size:12px;
+	color:#FFF;
+}
+/* bottom */
+#bottom{
+	height:417px;
+	background-color: #FFF;
+}
+.bottom{
+	margin-top:73px;
+}
+.bottomL{
+	margin-top:124px;
+    width:375px;
+}
+.wordL{
+	width:375px;
+    height:12px;
+    font-size:12px;
+    color:rgba(102,102,102,1);
+    margin-top:35px;
+    margin-bottom:35px;
+}
+.wordL+li{
+	width:120px;
+    height:36px;
+    border:1px solid #00A4FF;
+    color:#00A4FF;
+    text-align: center;
+    line-height: 36px;
+}
+.wordL+li a{
+    color:#00A4FF;
+}
+#bottomR{
+	margin-top:130px;
+	margin-left:270px;
+}
+.bottomR{
+    margin-right:147px;
+    font-size: 12px;
+}
+.bottomRLast{
+	margin-right:0px;
+}
+.subfield{
+	font-size:16px;
+	padding-bottom:15px;
+}
