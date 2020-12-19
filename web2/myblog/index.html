@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人博客</title>
+	<link rel="stylesheet" type="text/css" href="restting.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body class="clear">
+    <div id = "leftLogo">
+        <p>显示导航</p>
+    </div>
+    <!-- 头部内容 -->
+    <div id="header">
+    	<div class="header container clear">
+    	    <!-- logo -->
+    	    <div class="logo fl" id="logo">
+    	    	<a href="#"><img src="images/logo.png" height="40" width="40"></a>
+    	    </div>
+    	    <!-- 导航 -->
+    		<ul class="navHeader fl clear">
+    			<li class="first"><a href="#">首页</a></li>
+    			<li><a href="#">技术专区</a></li>
+    			<li><a href="#">悦耳之声</a></li>
+    			<li><a href="#">星辰大海</a>
+    			    <ul class="clear">
+    			    	<li><a href="#">小目标</a></li>
+    			    	<li><a href="#">学习</a></li>
+    			    	<li><a href="#">读书</a></li>
+    			    </ul>
+    			 </li>
+    			 <li><a href="#">心情日记</a></li>
+    		</ul>
+    		<!-- 搜索栏 -->
+    		<form class="searchZone fl clear">
+    		    <input id = "searchSth"type="text" placeholder="请输入" class="input fl"/>
+                <ul>
+                    <li class="history clear">
+                      <h4><a id="history" class="fl" href="#">历史搜索</a></h4>
+                      <a class="fr" href="#" >清空</a>
+                    </li>
+                    <li><a href="#">C语言</a></li>
+                    <li><a href="#">原码</a></li>
+                    <li><a href="#">吉他爬格子</a></li>
+                </ul>
+    		    <input type="button" value=" " name="button" class="search fl"/>
+    		</form>
+    		<!-- 登录 -->
+    		<div class="login fr clear">
+    			<p class="fr"><a href="login.html">登录</a></p>
+    		</div>
+    	</div>
+    </div>
+    <!-- 内容区 -->
+    <div id="container" class="banner clear">
+    	<div class="container contain clear">
+    		<div class="containLeft clear">
+                 <!-- 轮播图 -->
+    			<div class="fl rotation" id = "rotation">
+<!--     				<img  class="prev" id = "prev" src="images/prev.png" height="50px" width="50px">
+                    <img  class="next" id = "next" src="images/next.png" height="50px" width="50px"> -->
+                    <ul id = "rotationMain" class="clear">
+                        <li class="fl"><a  href="#"><img src="images-rotation/banner04.jpg" height="400px" width="900"></a></li>
+                        <li class="fl"><a  href="#"><img src="images-rotation/banner01.jpg" height="400px" width="900"></a></li>
+                        <li class="fl"><a  href="#"><img src="images-rotation/banner02.jpg" height="400px" width="900"></a></li>
+                        <li class="fl"><a  href="#"><img src="images-rotation/banner03.jpg" height="400px" width="900"></a></li>
+                        <li class="fl"><a  href="#"><img src="images-rotation/banner04.jpg" height="400px" width="900"></a></li>
+                        <li class="fl"><a  href="#"><img src="images-rotation/banner01.jpg" height="400px" width="900"></a></li>
+                    </ul>
+                    <span class="points clear">
+                        <span class="point fl" id = "pointVerify"></span>  
+                        <span class="point fl"></span> 
+                        <span class="point fl"></span> 
+                        <span class="point fl"></span>
+                    </span>
+    			</div>
+    			<!-- 小鸟分割线 -->
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<img class="bird fl" src="images/bird.png">
+    			<!-- 欢迎语 -->
+    			<div class="welcome fl">
+    				<p>欢迎进入我的博客，希望对您有所帮助!</p>
+    			</div>
+    			<!-- 热门推荐 -->
+    			<div class="hot fl clear">
+    				<h3><a href="#">热门推荐</a></h3>
+    				<hr>
+    				<ol class="fl">
+    					<li class="clear"><a href="#">本博客发展历程</a> <img src="images/hot.png"></li>
+    					<li class="clear"><a href="#">云台山三日游</a><img src="images/hot.png"></li>
+    					<li class="clear"><a href="#">练琴打卡</a><img src="images/hot.png"></li>
+    					<li class="clear"><a href="#">原码、反码、补码的产生原因</a><img src="images/hot.png"></li>
+    					<li class="clear"><a href="#">如何准备四级考试</a><img src="images/hot.png"></li>
+    				</ol>
+    			</div>
+    			<!-- 重要栏目最新内容列表 -->
+    			<div class="itemSign fl clear">
+    				<p class="clear fl">最新内容
+    				    <span class="fr"><a href="#">更多</a></span>
+    				</p>
+    			</div>
+    			<div class="items fl clear">
+    			    <div class="item fl">
+    			    	<img src="images/01.png"  height="200px" width="295px">
+    			    	<hr>
+    			    	<h5><a href="https://www.bilibili.com/video/BV1w7411a7xv" target="_blank">【歌手声线变化：第五辑】——周杰伦（转载）</a></h5>
+    			    	<p class="classItem"><a href="#">悦耳之声</a></p>
+    			    	<p class="containItem"><a href="https://www.bilibili.com/video/BV1w7411a7xv" target="_blank">周杰伦2000出道至今二十年堪称中生代独一无二的存在 除了R&B 各种曲风都有涉猎该视频选取2001-2019优质live很多年份选取了两个素材进行分析...</a></p>
+    			    	<p class="time clear">
+    			    	    <img src="images/time.png" width="16px" height="16px">2019/02/25
+    			    		<span class="fr">转载</span>
+    			    	</p>
+    			    </div>
+                    <div class="item fl">
+    			    	<img src="images/banner.jpg"  height="200px" width="295px">
+    			    	<hr>
+    			    	<h5><a href="https://www.zhihu.com/question/20159860" target="_blank">原码、反码、补码的产生？（转载）</a></h5>
+    			    	<p class="classItem"><a href="#">技术专区</a></p>
+    			    	<p class="containItem"><a href="https://www.zhihu.com/question/20159860" target="_blank">前几位回答的都很不错不过呢，我准备换一个角度。所有编码系统的设计，都在追求连续性和唯一性。原码，反码和补码的演化，就在不断提高整数编码的这两方面性能。不信的话....</a></p>
+    			    	<p class="time clear">
+    			    	    <img src="images/time.png" width="16px" height="16px">2019/02/25
+    			    		<span class="fr">转载</span>
+    			    	</p>
+    			    </div>
+    			    <div class="item fl rightBlank">
+    			    	<img src="images/03.png"  height="200px" width="295px">
+    			    	<hr>
+    			    	<h5><a href="https://www.bilibili.com/video/BV18J411Y7iB" target="_blank">「以父之名」MappleZS钢琴演奏版（转载）</a></h5>
+    			    	<p class="classItem"><a href="#">悦耳之声</a></p>
+    			    	<p class="containItem"><a href="https://www.bilibili.com/video/BV18J411Y7iB" target="_blank">「以父之名」是周杰伦的一首难以超越的神曲，在粉丝心中有着极高的地位，对华语乐坛也有着极高的影响。本视频版本由MappleZS改编并演奏，因为原曲使用到的乐器很多，改编成钢琴后会稍显寡淡，....</a></p>
+    			    	<p class="time clear">
+    			    	    <img src="images/time.png" width="16px" height="16px">2019/02/25
+    			    		<span class="fr">转载</span>
+    			    	</p>
+    			    </div>
+    			    <div class="item fl">
+    			    	<img src="images/04.jpg"  height="200px" width="295px">
+    			    	<hr>
+    			    	<h5><a href="https://www.zhihu.com/question/23148377/answer/907915556" target="_blank">程序员必须掌握哪些算法？（转载）</a></h5>
+    			    	<p class="classItem"><a href="#">技术专区</a></p>
+    			    	<p class="containItem"><a href="https://www.zhihu.com/question/23148377/answer/907915556" target="_blank">不 BB，直接上干货，非科班出生，毕业工作后才开始学算法，到目前学了 4 年 ！！！为了让你对数据结构和算法能有个全面的认识，我画了一张图，里面几乎涵盖了所有数据结构和算法书籍中都会讲到的知识点。....</a></p>
+    			    	<p class="time clear">
+    			    	    <img src="images/time.png" width="16px" height="16px">2019/02/25
+    			    		<span class="fr">转载</span>
+    			    	</p>
+    			    </div>
+    			   <div class="item fl">
+    			    	<img src="images/05.jpg"  height="200px" width="295px">
+    			    	<hr>
+    			    	<h5><a href="https://zhuanlan.zhihu.com/p/110980334" target="_blank">B站学习资源大整理（转载）</a></h5>
+    			    	<p class="classItem"><a href="#">技术专区</a></p>
+    			    	<p class="containItem"><a href="https://zhuanlan.zhihu.com/p/110980334" target="_blank">我花了一天时间，爬取了到2020年为止，B站上科技类目下的几乎所有学习资源视频，共计58950个视频，并分类整理成了14个excel....</a></p>
+    			    	<p class="time clear">
+    			    	    <img src="images/time.png" width="16px" height="16px">2019/02/25
+    			    		<span class="fr">转载</span>
+    			    	</p>
+    			    </div>
+    			    <div class="item fl rightBlank">
+    			    	<img src="images/06.png"  height="200px" width="295px">
+    			    	<hr>
+    			    	<h5><a href="https://www.zhihu.com/question/318224089/answer/686148937" target="_blank">大学生如何增强自己的知识储备？（转载）</a></h5>
+    			    	<p class="classItem"><a href="#">学习</a></p>
+    			    	<p class="containItem"><a href="https://www.zhihu.com/question/318224089/answer/686148937" target="_blank">一马上就要结束了，感觉除了专业知识以外接触的东西很少，该怎么增强自己的知识储备啊？....</a></p>
+    			    	<p class="time clear">
+    			    	    <img src="images/time.png" width="16px" height="16px">2019/02/25
+    			    		<span class="fr">转载</span>
+    			    	</p>
+    			    </div>    
+
+    			   <div class="item fl">
+    			    	<img src="images/insert.png"  height="200px" width="295px">
+    			    	<hr>
+    			    	<h5><a href="https://www.bilibili.com/video/BV1BE411e7w8" target="_blank">视唱练耳【启蒙】教程全套45集附示范，超级干货？（转载）</a></h5>
+    			    	<p class="classItem"><a href="#">悦耳之声</a></p>
+    			    	<p class="containItem"><a href="https://www.bilibili.com/video/BV1BE411e7w8" target="_blank">置顶本教程为视唱练耳【启蒙】教程（前30集包含所有基础节奏型 注意查看简介），另外【初级】教程 是将启蒙教程中的部分知识点单独提取出来针对性大量练习....</a></p>
+    			    	<p class="time clear">
+    			    	    <img src="images/time.png" width="16px" height="16px">2019/02/25
+    			    		<span class="fr">转载</span>
+    			    	</p>
+    			    </div>
+    			   <div class="item fl">
+    			    	<img src="images/07.png"  height="200px" width="295px">
+    			    	<hr>
+    			    	<h5><a href="https://www.zhihu.com/question/395358957/answer/1229313752" target="_blank">如何看待钟南山否认商业代言传闻?（转载）</a></h5>
+    			    	<p class="classItem"><a href="#">杂谈</a></p>
+    			    	<p class="containItem"><a href="https://www.zhihu.com/question/395358957/answer/1229313752" target="_blank">不信的话钟南山院士明确告诉红星新闻：“我从来没有给任何企业和产品代言，我怎么会做那些东西？搞那个和我的业务有什么关系呢？谢谢你告诉我这些消息。”....</a></p>
+    			    	<p class="time clear">
+    			    	    <img src="images/time.png" width="16px" height="16px">2019/02/25
+    			    		<span class="fr">转载</span>
+    			    	</p>
+    			    </div>
+    			    <div class="item fl rightBlank">
+    			    	<img src="images/08.jpg"  height="200px" width="295px">
+    			    	<hr>
+    			    	<h5><a href="https://www.zhihu.com/question/386826528/answer/1172887974" target="_blank">可以给大一软件工程专业的我一些建议吗？（转载）</a></h5>
+    			    	<p class="classItem"><a href="#">学习</a></p>
+    			    	<p class="containItem"><a href="https://www.zhihu.com/question/386826528/answer/1172887974" target="_blank">主要课程：程序设计基础、数据结构、数据库原理及应用、算法分析与设计、JavaEE构架与程序设计、Python与数据处理技术、软件测试与质量保证、软件项....</a></p>
+    			    	<p class="time clear">
+    			    	    <img src="images/time.png" width="16px" height="16px">2019/02/25
+    			    		<span class="fr">转载</span>
+    			    	</p>
+    			    </div>    			    <div class="item fl">
+    			    	<img src="images/09.jpg"  height="200px" width="295px">
+    			    	<hr>
+    			    	<h5><a href="https://www.zhihu.com/question/41476832/answer/91127489" target="_blank">有哪些高质量的自学网站？（转载）</a></h5>
+    			    	<p class="classItem"><a href="#">学习</a></p>
+    			    	<p class="containItem"><a href="https://www.zhihu.com/question/41476832/answer/91127489" target="_blank">艺术与音乐1、 Dave Conservatoire—一个完全免费的音乐学习网站，口号是“让每一个人都可以接受世界级的音乐教育”，有视频，有练习。....</a></p>
+    			    	<p class="time clear">
+    			    	    <img src="images/time.png" width="16px" height="16px">2019/02/25
+    			    		<span class="fr">转载</span>
+    			    	</p>
+    			    </div>
+    			   <div class="item fl">
+    			    	<img src="images/10.jpg"  height="200px" width="295px">
+    			    	<hr>
+    			    	<h5><a href="https://www.zhihu.com/question/306249128/answer/576930694" target="_blank">2019 年你的书单有什么书？（转载）</a></h5>
+    			    	<p class="classItem"><a href="#">读书</a></p>
+    			    	<p class="containItem"><a href="https://www.zhihu.com/question/306249128/answer/576930694" target="_blank">今年看了83本书，比前两年多一些，不过完全不成体系，所以零散列一下我个人推荐的。排序不代表推荐优先程度，2019年新出版的书放在最前。....</a></p>
+    			    	<p class="time clear">
+    			    	    <img src="images/time.png" width="16px" height="16px">2019/02/25
+    			    		<span class="fr">转载</span>
+    			    	</p>
+    			    </div>
+    			    <div class="item fl rightBlank">
+    			    	<img src="images/11.png"  height="200px" width="295px">
+    			    	<hr>
+    			    	<h5><a href="https://www.bilibili.com/video/BV1AE411f7QW?from=search&seid=3914573819196629380" target="_blank">吉他基本功 | 老默er陪你一起...（转载）</a></h5>
+    			    	<p class="classItem"><a href="#">悦耳之声</a></p>
+    			    	<p class="containItem"><a href="https://www.bilibili.com/video/BV1AE411f7QW?from=search&seid=3914573819196629380" target="_blank">注意事项：右手运用交替指弹法全程10分钟不能停速度120,4/4拍！这个速度可根据个人目前的学习阶段降速！蛇形爬法....</a></p>
+    			    	<p class="time clear">
+    			    	    <img src="images/time.png" width="16px" height="16px">2019/02/25
+    			    		<span class="fr">转载</span>
+    			    	</p>
+    			    </div>
+    			</div>
+    		</div>
+    		<!-- 右侧内容 -->
+    		<div class="containRight fr clear">
+    			<!-- 个人名片 -->
+    			<div class="introduce clear fl"> 
+    			    <h3><img src="images/list.png"> 个人简介</h3>
+    			    <hr>
+    				<img class="fl" src="images/me.jpg" height="90px" width="90px" >
+    				<p class="fl">
+    					<span>博主：</span>
+    				   软件7班赵小龙
+    				</p>
+    				<p class="fl">
+    					<span>昵称：</span>
+    				   一袋哪里多
+    				</p>
+                    <h4 class="fl">联系方式</h4>
+                    <a href="#"><img src="images/QQ.png"></a>
+                    <a href="#"><img src="images/weixin.png"></a>
+                    <a href="#"><img src="images/github.png"></a>
+                    <a href="#"><img src="images/e-mail.png"></a>
+    			</div>
+    			<!-- 当前时间 -->
+    			<div class="now clear fl">
+    				<h3><img class="list" src="images/list.png">劝君惜取少年时</h3>
+    			    <hr>
+    			    <p class="fl">
+                        <p id="nowTime">2020/6/13 16:50</p>
+    				</p>
+    			</div>
+    			<!-- 分类 -->
+    			<div id="class" class="fl clear">
+    				<h3><img class="list" src="images/list.png">标签</h3>
+    			    <hr>
+    			    <p><a href="#">c++</a></p>
+    			    <p><a href="#">JS</a></p>
+    			    <p><a href="#">知乎</a></p>
+    			    <p><a href="#">C语言</a></p>
+    			    <p><a href="#">数据结构</a></p>
+    			    <p><a href="#">算法</a></p>
+    			    <p><a href="#">小目标</a></p>
+    			    <p><a href="#">读书笔记</a></p>
+    			    <p><a href="#">小故事</a></p>
+    			    <p><a href="#">感悟</a></p>
+    			    <p><a href="#">摘抄</a></p>
+    			    <p><a href="#">电影</a></p>
+    			    <p><a href="#">转载</a></p>
+    			    <p><a href="#">网络原理</a></p>
+    			    <p><a href="#">暑假计划</a></p>
+    			</div>
+    			<!-- 请留言 -->
+    			<div  class="massageInput fl clear">
+    				<h3><img class="list" src="images/list.png">欢迎留言</h3>
+    			    <hr>
+    			    <form class="clear">
+                        <textarea row="30" cols="20" name="massage"class="fl inputMassage">请输入留言
+                        </textarea>
+                        <intput type="reset" value=""  name="reset" class="fl submitMassage"/>确 定
+                    </form>
+                    
+                </div>
+    			<!-- 留言板 -->
+    			<div  class="massage fl clear">
+    				<h3><img class="list" src="images/list.png">留言板</h3>
+    			    <hr>
+                    <div class="friends clear">
+                    	<a class="fl"href="#"><img src="images/r1.jpg" height="50px" width="50px"></a>
+                    	<p class="clear">
+                    		<span><a href="#">迪达拉：</a></span>
+                    		艺术就是派大星！
+                    	</p>
+                    </div>
+                    <div class="friends clear">
+                    	<a class="fl"href="#"><img src="images/r2.jpg" height="50px" width="50px"></a>
+                    	<p class="clear">
+                    		<span><a href="#">长门：</a></span>
+                    		感受痛苦吧！
+                    	</p>
+                    </div>
+                    <div class="friends clear">
+                    	<a class="fl"href="#"><img src="images/r3.jpg" height="50px" width="50px"></a>
+                    	<p class="clear">
+                    		<span><a href="#">小南：</a></span>
+                    		妖艳的神之使徒演奏的是福音还是毁灭的诗歌
+                    	</p>
+                    </div>
+                    <div class="friends clear">
+                    	<a class="fl"href="#"><img src="images/r4.jpg" height="50px" width="50px"></a>
+                    	<p class="clear">
+                    		<span><a href="#">阿飞：</a></span>
+                    		啊累累，你猜我是谁。
+                    	</p>
+                    </div>
+                    <div class="friends clear">
+                    	<a class="fl"href="#"><img src="images/r5.jpg" height="50px" width="50px"></a>
+                    	<p class="clear">
+                    		<span><a href="#">芦荟：</a></span>
+                    		............
+                    	</p>
+                    </div>
+                </div>
+                <!-- 友链连接 -->
+                <div class="friendBlog clear fl">
+    				<h3><img class="list" src="images/list.png">友链连接</h3>
+    			    <hr>
+    			    <a href="#">李隆基的博客</a>
+    			    <a href="#">项羽的博客</a>
+    			    <a href="#">大蛇丸的博客</a>
+    			    <a href="#">诸葛亮的博客</a>
+    			    <a href="#">自来也的博客</a>
+    			    <a href="#">佩恩的博客</a>
+    			    <a href="#">宇智波鼬的博客</a>
+    			    <a href="#">二柱子的博客</a>
+    			    <a href="#">太子的博客</a>
+    			    <a href="#">程咬金的博客</a>
+    			</div>
+    		</div>
+    	</div>
+    </div> 
+    <!-- footer -->
+    <div id="footer" class="fl">
+        <div class="footer container">
+            <div class="QRcode fl">
+    	         <img class=""src="images/QR code.png" height="100px" width="100px">
+    	    一袋哪里多的公众号
+    	    </div>
+    	    <div class="QRcode fl">
+    	        <img class=""src="images/QR code.png" height="100px" width="100px">
+    	    一袋哪里多自制小程序
+    	    </div>
+    	    <ul class="fl">
+    	    	<li><h5>合作单位</h5></li>
+    	    	<li><a href="#">瓦当寨</a></li>
+    	    	<li><a href="#">曹老板治头痛集团</a></li>
+    	    	<li><a href="#"></a></li>
+    	    </ul>
+    	    <ul class="fl">
+    	    	<li><h5>工作单位</h5></li>
+    	    	<li><a href="#">匿名者黑客组织</a></li>
+    	    	<li><a href="#">中国白客联盟</a></li>
+    	    </ul>
+    	    <li class="fr">Copyright 2020 ZhaoXiaolong's Blog 
+    	    <br>
+    	    <a href="#">Email:1438502954@qq.com </a>|CSS+HTML Theme by me
+    	    </li>
+    	</div>
+    </div>
+    <script src="index.js"></script>
+</body>
+    <script>
+        var nowTime = document.getElementById("nowTime");
+        var rotationMain = document.getElementById("rotationMain");
+        var rotation = document.getElementById("rotation");
+        var leftMove = 900;
+        var prev = document.getElementById("prev");   
+        var next = document.getElementById("next");
+        var points = document.getElementsByClassName("point");
+        //效果一: 自动更新时间
+        callbackTime(nowTime);
+
+        rotation.onmousemove = function(){
+            clearInterval(rotation.timer);
+        }
+        rotation.onmouseout = function(){
+            rotationTime();
+        }
+        //效果二：自动轮播效果
+        function rotationTime(){
+            clearInterval(rotation.timer);
+            rotation.timer = setInterval(function(){
+                leftMove = (leftMove + 900) % 5410;
+                if(leftMove != 5400){
+                    animate(rotationMain, {left: -1 * leftMove});
+                    navmove();
+                } else {
+                    rotationMain.style.left = "-900px";
+                    leftMove = 1800;
+                    animate(rotationMain, {left: -1 * leftMove});
+                    navmove();
+                }
+            }, 2500);        
+        }
+        function navmove(){
+            for(var i=0; i< points.length; i++ ){
+                points[i].id = "";
+            }
+            var index = leftMove / 900;
+            if(index > 4 ){
+                points[0].id = "pointVerify";
+            } else if(index <= 0){
+                points[3].id = "pointVerify";
+            } else {
+                points[index-1].id = "pointVerify";
+            }
+        }
+        //效果三:点击隐藏开关
+        var leftLogo = document.getElementById("leftLogo");
+        leftLogo.onclick = function(){
+            var header = document.getElementById("header");
+            if(getStyle(header, "display") == "none"){
+                header.style.display = "block";
+            } else {
+                header.style.display = "none";
+            }
+        }
+        //效果四：弹窗
+        document.onload = alert("效果一: 自动更新时间效果" + "\n" + "效果二:自动轮播效果" + "\n" + "效果三:点击隐藏开关" +
+        "\n" + "效果四:弹窗效果" + "\n" + "效果五:登录页面中输入用户名和密码回车提交")
+    </script>
+</html>

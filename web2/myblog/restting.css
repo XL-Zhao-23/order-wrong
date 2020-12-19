@@ -1,0 +1,44 @@
+/*
+* @Author: ?С??
+* @Date:   2020-05-23 15:54:53
+* @Last Modified by:   赵小龙
+* @Last Modified time: 2020-06-13 17:28:34
+*/
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+    list-style-type: none;
+}
+a{ 
+	text-decoration: none;
+	color:black;
+}
+.clear:after{
+    content:'';
+    display:block;
+    height:0;
+    clear:both;
+}
+body{
+	width:100%;
+	background-color: #F3F5F7;
+}
+img{
+	vertical-align: bottom;
+}
+.container{
+	width:1200px;
+	text-align: left;
+	margin:0 auto;
+}
+.fr{
+	float:right;
+}
+.fl{
+	float:left;
+}
+div{
+	border-radius:5%;
+}

@@ -1,0 +1,9 @@
+视频前面是git的安装和基本操作，大家安装过的就不用再装了，基本操作还记得的可以跳过，
+直接看github pages 的配置。
+
+下面的链接是教程和一个仓库的案例
+http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
+
+https://github.com/HL1115/git
+该仓库设置了github pages后就会有这样的链接，打开就是网页
+https://hl1115.github.io/git/index.html
